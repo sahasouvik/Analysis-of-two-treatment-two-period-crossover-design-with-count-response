@@ -1,0 +1,9 @@
+Mixing Parameter-
+Beta is the mixing parameter which helps in measuring the carryover effect i.e it helps in measuring the effect of first period over the second period.
+If beta=0 then the second period becomes independent of the first period.Since it is a croosover design and the effect of the first period is carried over to the second so the value of beta cannot be 0.
+
+Remarks:-
+1)The power of  T1 decreases monotonically with the increase in beta.
+2)The power of T3 shows no change or increases very little with increase in beta.
+3)T2 is consistent and its power increases consistently with increase in beta.
+4)T2 performs best with change in beta followed by T1 and T3.

@@ -1,0 +1,11 @@
+T2=c(0.8491,0.9512,0.7662,0.9202,0.9679,0.9987,0.2179,0.9135,0.8272)
+T1=c(0.3859,0.6100,0.4180,0.7004,0.8980,0.9888,0.1430,0.7829,0.6692)
+T3=c(0.6008,0.7991,0.4926,0.7222,0.9983,1.0000,0.3528,0.9874,0.9637)
+o=order(T2)
+x=1:9
+plot(x,T1[o],type='o',main="Change of Power Curves with Model Parameters",xlab="Parameter Index",ylab='Power',col='blue',pch='o',lty=1,ylim=c(0,1.4))
+points(x,T2[o],col="red",pch="*")
+lines(x,T2[o],col="red",lty=2)
+points(x,T3[o],col="brown",pch="+")
+lines(x,T3[o],col="brown",lty=3)
+legend("topleft",c("T1","T2","T3"),col=c("blue","red","brown"),bty="n",lty=280:300)
